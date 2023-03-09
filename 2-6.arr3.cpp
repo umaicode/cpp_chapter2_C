@@ -62,6 +62,7 @@ void main()
 	//pt = ar2; // int (*)[3] 형식의 값을 int * 형식의 값으로 치환할 수 없다
 	p2 = &pt;         // both pointer-to-int *
 	*p2 = ar2[0];     // both pointer-to-int *
+	// printf("**p2 = %d\n\n", **p2); // 여기다가도 찍어먹어보기.
 	(*p2)++;
 	printf("**p2 = %d\n\n", **p2);
 	//p2 = ar2; // int (*)[2] 형식의 값을 int ** 형식의 값으로 치환할 수 없다
