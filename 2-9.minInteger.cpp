@@ -16,7 +16,7 @@ int main(void){
 	system("pause");
 }
 
-int *min(int *x, int *y){
+int* min(int* x, int* y) {
     int *pTemp;    
     if (*x < *y)	
         pTemp = x;
@@ -24,3 +24,12 @@ int *min(int *x, int *y){
         pTemp = y;
     return pTemp;
 }
+
+/*int* min(int* x, int* y) { // 이 코드 개박살난다.
+    int pTemp;
+    if (*x < *y)
+        pTemp = *x;
+    else
+        pTemp = *y;
+    return &pTemp;
+}*/

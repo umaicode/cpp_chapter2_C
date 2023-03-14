@@ -3,7 +3,17 @@
 #include <stdlib.h>
 int main(void)
 {
-    char *num[5];
+    // 수업 중 실습 코드
+    // -------------------------------------------------------------------------------------
+    char p2[] = "Good";
+    char* ptr2 = "Good";
+    ptr2 = p2; // 각주했을 때는 ptr2와 "Good"은 같은 주소값을 가지게 된다.
+    printf("%p\n", "Good");
+    printf("%s %s\n", p2, ptr2);
+    printf("%p %p %p\n", p2, ptr2, "Good");
+    // -------------------------------------------------------------------------------------
+
+    char* num[5];
     char **p;
     char **q;
     char *t;
@@ -27,5 +37,5 @@ int main(void)
     scanf("%s", ptr);
     printf("*ptr = %s\n", ptr);
 	system("pause");
-    return 0;
+    return 0; 
 }
