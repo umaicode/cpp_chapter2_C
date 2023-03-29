@@ -21,6 +21,7 @@ int main(void) {
 	d = a;//d는 배열 [4]를 가리키는 pointer 변수이다.
 	printf("d = %p, d+1 = %p, d[1] = %p\n", d, d+1, d[1]);//d+1은 다음 row를 가리킨다
 	printf("d[0] = %p, d[0]+1 = %p\n", d[0], d[0]+1);//d[0]+1은 각 row의 다음 원소
+	printf("*d[0] = %d, *d[0]+1 = %d\n", *d[0], *d[0] + 1);
 	printf("*d = %p, *d+1 = %p\n", *d, *d+1);
 	printf("d[0][0] = %d, *d[0] = %d, **d = %d\n\n\n", d[0][0], *d[0], **d);//d가 array to pointer이지마는 2차원 배열 접근도 가능
 	//*/

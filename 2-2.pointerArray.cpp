@@ -16,6 +16,7 @@ int main(void) {
 	printf("b의주소: %p\n",b);
 	printf("a[0] = %d\n",a[0]);
 	printf("*b = %d\n\n",*b);
+	// printf("a[9] = %d\n", a[9]);
 	//*/
 
 	// 주석 2 - ctrl C & ctrl K를 사용하여 comment 처리한다.

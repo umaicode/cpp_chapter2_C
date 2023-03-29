@@ -56,6 +56,8 @@ void main()
     //*
     printf("\n\n2번 주석\n\n");
 	printf("a1 = %p, ap1 = %p\n", a1, ap1);
+    printf("a1 = %d, ap1 = %d\n", *a1, *ap1); // 내가 임의로 적은 코드
+
 	printf("a2 = %p, ap2 = %p, ap3 = %p\n", a2, ap2, ap3);
     printf("ap1++  ap2++  ap3++ 실행 전\n");
     printf("*ap1 = %d\n",*ap1); 

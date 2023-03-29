@@ -35,7 +35,7 @@ void main(){
 	*Q = B[0]; // *Q도 배열 이름 상수로서 lvalue가 아니다.
 	*/
 	printf("**B = %d, *B[0] = %d, (*B+1)[0] = %d, *(B+1)[0] = %d\n", **B, *B[0], (*B+1)[0], *(B+1)[0]);
-	printf("**A = %d, *A[0] = %d, (*A+1)[1] = %d\n",**A, *A[0], (*A+1)[1]);
+	printf("**A = %d, *A[0] = %d, (*A+1)[1] = %d, *(A+1)[1] = %d\n",**A, *A[0], (*A+1)[1], *(A+1)[1]);
 	// 2차원 배열 변수, array of pointers, pointer to array가 동일하게 사용됨
 	for(int i=0;i<3;i++)
 	{
