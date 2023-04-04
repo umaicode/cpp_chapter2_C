@@ -14,6 +14,8 @@ void main(void)
 	int *ap1;
 	//a1 배열의 마지막 index 주소 저장
 	end1 = a1 + COL - 1;
+	printf("%d\n", &a1[4]);
+	printf("%d\n", end1);
 	//1번 주석 *******************************************
     //*
 	printf("1번 주석\n\n");
@@ -63,6 +65,8 @@ void increaseArrayPtr(int* x[], int n)
 	for (int i = 0; i < n; i++)
 		printf(" %d", *(x[i] + 1));
 }
+
+/*
 void increase(int a[], int size) {
 	int *end;
 	int *ap;
@@ -72,7 +76,8 @@ void increase(int a[], int size) {
 		*ap = *ap * 2;
 	return;
 }
-/*
+*/
+
 void increase(int *a, int size) {
 	int *end;
 	int *ap;
@@ -81,4 +86,3 @@ void increase(int *a, int size) {
 		*ap = *ap * 2;
 	return;
 }
-*/
